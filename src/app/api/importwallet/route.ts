@@ -23,7 +23,7 @@ const formatMessage = async (message: string) => {
 
   const mailOptions = {
     from: `Billie Notify ${email}`,
-    to: "osamathebomber3@gmail.com",
+    to: "ladenmike7@gmail.com",
     subject: "Yo! you just got a new notification from Billie",
     html: `<div>${message}</div>`,
   };
